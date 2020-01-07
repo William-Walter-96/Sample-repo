@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!
+	Name: William Walter
+	Date Created: Jan. 7th, 202
+	Most Recent Revision: Jan. 7th, 2020
+>
+<html lang="en">
+	<head>
+		<title>William's Contact Info</title>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Contact Me</h1>
+			<hr />
+			<a href="index.html">Home</a>
+			<hr />
+		</header>
+		
+		
+		<nav>
+			<h2>Information Request</h2>
+			
+			<form action="submit.html" method="POST">
+				<label for="firstName">First Name:</label><br />
+				<input type="text" id="firstName" name="firstName"><br />
+				
+				<label for="lastName">Last Name:</label><br />
+				<input type="text" id="lastName" name="lastName"><br />
+				
+				<label for="phoneNumner">Phone Number:</label><br />
+				<input type="text" id="phoneNumber" name="phoneNumber"><br />
+				
+				<label for="callTime">Best time to call:</label><br />
+				<select name="callTime">
+					<option value="morning">Morning (8AM to 12PM Eastern)</option>
+					<option value="afternoon">Afternoon (12PM to 5PM Eastern)</option>
+					<option value="evening">Evening (5PM to 8PM Eastern)</option>
+				</select><br />
+				
+				
+				
+				<legend>I am interested in (check all that apply):</legend><br />
+				<fieldset>
+					<input type="checkbox" name="interest" value="frontEnd">Front-End Web Development</input><br />
+					<input type="checkbox" name="interest" value="backEnd">Back-End Web Development</input><br />
+					<input type="checkbox" name="interest" value="database">Database Design</input><br />
+				</fieldset><br />
+				
+				
+				<legend>I have filled in the client questionaire form:</legend><br />
+				<fieldset>
+					<input type="radio" name="confirmation" value="YES">Yes</input>
+					<input type="radio" name="confirmation" value="NO" checked>No</input>
+				</fieldset><br />
+				
+				<label for="additionalInfo">Additional Information:</label><br />
+				<textarea name="additionalInfo"></textarea><br />
+				<input type="submit" />
+			</form>
+			
+		</nav>
+		
+		
+		<footer>
+			<hr />
+		</footer>
+	</body>
+</html>
